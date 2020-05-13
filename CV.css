@@ -1,0 +1,131 @@
+body {
+    font-family: "calibri";
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  p {
+    hyphens: auto;
+  }
+  .cv__text--background {
+    background-color: rgb(189, 215, 238);
+    margin: 0 15px 0 15px;
+    padding: 5px 15px;
+    border: ridge black;
+  }
+  h4 {
+    font-size: 20px;
+    text-align: justify;
+    text-transform: uppercase;
+    margin: 15px 0px 20px 25px;
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+  .rectangulo {
+    width: 300px;
+    height: 20px;
+    background-color: rgb(15, 205, 225);
+    box-shadow: 10px 10px 10px black;
+  }
+  table {
+    width: 100%;
+  }
+  .columna {
+    text-align: center;
+    background-color: rgb(189, 214, 238);
+    width: 30%;
+  }
+  
+  /*****************************/
+  .cv {
+    display: flex;
+  }
+  .cv__info-personal {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 205, 225);
+    width: 50%;
+  }
+  .cv__img--middle {
+    width: 200px;
+    box-shadow: 10px 10px 40px black;
+  }
+  .cv__info-personal__presentacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cv__info-personal__contacto--list {
+    margin: 10px 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .cv__info-personal__contacto--list > li {
+    display: flex;
+    align-items: center;
+  }
+  .cv__experiencia--title1 {
+    display: flex;
+    margin: 10px 0px 0px 20px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .square {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(15, 205, 225);
+  }
+  .square2 {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(189, 214, 238);
+  }
+  .lista > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lista{
+    background-color: rgb(189, 215, 238);
+  }
+  .cuadrados {
+    width:60%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .idiomas-habilidades{
+    display:flex;
+    justify-content:space-between;
+    
+  }
+  .idiomas{
+    width:50%;  
+  }
+  .habilidades{
+    width:50%;
+  }
+  .titulo{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+  .rectangulo2 {
+    width: 200px;
+    height: 15px;
+    background-color: rgb(15, 205, 225);
+    box-shadow: 10px 10px 10px black;
+  }
